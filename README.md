@@ -8,7 +8,7 @@
 
 Process raw ONT reads to generate filtered CENPA Dimelo-seq tracks. Final track takes **CENPA (middle track)** and **Negative (top track)**, and generates a **filtered CENPA track (bottom track)** that reduces background noise associated with spurious 6mA basecalls. 
 
-![Example Tracks](link)
+![Example Tracks](https://github.com/gabriellehartley/cenpa-dimelo-processing/blob/132e2c77280083093cc8c3792c4e362a36268204/CENPA_Dimelo_Example.png)
 
 ## 1. Basecall reads with Dorado. 
 If barcoded, include --kit-name. If not, this flag can be omitted and the dorado demux step can be skipped.
